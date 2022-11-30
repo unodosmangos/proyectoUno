@@ -5,72 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Trench-coat Factory</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 <body>
-    <!--Primera sección corresponde al navBar, compuesta por 4 cajas y organizadas con bootstrap's display flex (d-flex).-->
-    <nav class="navbar-dark bg-dark">
-      <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body py-0 ps-5">
-          <div class="">
-            <ul class="d-flex flex-column align-content-center list-unstyled">
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">Inicio</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">SALE</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">Clasicos</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">Mujer</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">Hombre</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">Tarjeta Regalo</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">Colecciones</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">Looks</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">Tiendas</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">Cambios y Devoluciones</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">Blog</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">The Trench-Coat Factory</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">TIK TOK</a>
-              </li>
-              <li class="pb-3 text-dark">
-                <a href="#" class="text-decoration-none">GET 15% OFF</a>
-              </li>
-              <li class="">
-                <button type="button" class="btn btn-dark">Login</button>
-              </li>
-            </ul>
+    <!--La primera sección corresponde al navBar, compuesta por 4 cajas (Menu Offcanvas, Botones de navegacion 1, Nombre de la marca, Botones de navegacion 2).-->
+    <nav class="navbar-dark bg-dark d-flex justify-content-between align-items-center">
+      <!--Menu Offcanvas-->
+      <div class="d-none navbar-expand-lg">
+        <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <div></div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-
+          <div class="offcanvas-body py-0 px-5">
+            <div class="">
+              <ul class="d-flex flex-column align-content-center list-unstyled">
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">Novedades</a>
+                </li>
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">Clasicos</a>
+                </li>
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">Mujer</a>
+                </li>
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">Hombre</a>
+                </li>
+                <li class="pb-3">
+                  <a href="#regalosCollapse" class="text-decoration-none text-dark fw-semibold" data-bs-toggle="collapse">Regalos</a>
+                  <div class="collapse" id="regalosCollapse">
+                    <div class="d-flex flex-column ms-4 pt-2">
+                      <a href="#" class="text-decoration-none text-dark">Para ella</a>
+                      <a href="#" class="text-decoration-none text-dark">Para el</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">Colecciones</a>
+                </li>
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">Tiendas</a>
+                </li>
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">Cambios y Devoluciones</a>
+                </li>
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">Blog</a>
+                </li>
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">The Trench-Coat Factory</a>
+                </li>
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">Atencion al Cliente</a>
+                </li>
+                <li class="pb-3">
+                  <a href="#" class="text-decoration-none text-dark fw-semibold">GET 15% OFF</a>
+                </li>
+              </ul>
+              <div class="">
+                  <button type="button" class="btn btn-dark w-100 fw-semibold">Login</button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <!--Botones de navegacion 1-->
+      <div class="justify-content-start mt-3">
+        <ul class="d-flex list-unstyled">
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2">NOVEDADES</a>
+          </li>
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2">MUJER</a>
+          </li>
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2">HOMBRE</a>
+          </li>
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2">REGALOS</a>
+          </li>
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2">COLECCIONES</a>
+          </li>
+        </ul>
+      </div>
+      <!--Nombre de la marca-->
+      <div class="my-3">
+        <a href="#">
+          <img src="#" alt="logo">
+        </a>
+      </div>
+      <!--Botones de navegacion 2-->
+      <div class="justify-content-end mt-3">
+        <ul class="d-flex list-unstyled">
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2">TIENDAS</a>
+          </li>
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2">COLOMBIA</a>
+          </li>
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2"><i class="fa-solid fa-globe p-1"></i>ES</a>
+          </li>
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2">SERVICIO DE ATENCION AL CLIENTE</a>
+          </li>
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2">LOGIN</a>
+          </li>
+          <li class="">
+            <a href="#" class="text-decoration-none text-white p-2">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
