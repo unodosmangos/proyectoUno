@@ -13,3 +13,32 @@
     height: 91vh;
     width: fit-content !important;
 }
+
+@media (min-width:992px){
+    .primero img{
+        height: 88vh;
+        width: fit-content !important;
+     }
+     .segundo img{
+         height: 88vh;
+         width: fit-content !important;
+     }
+     .tercero img{
+         height: 88vh;
+         width: fit-content !important;
+     }
+}
+/*--@media (max-width:768px){
+    .primero img{
+        height: 60vh;
+        width: fit-content !important;
+     }
+     .segundo img{
+         height: 60vh;
+         width: fit-content !important;
+     }
+     .tercero img{
+         height: 60vh;
+         width: fit-content !important;
+     }
+}
