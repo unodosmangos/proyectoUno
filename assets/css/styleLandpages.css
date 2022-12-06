@@ -18,6 +18,10 @@
     padding-right: 16vh;
 }
 
+.styleFooter{
+    font-size: 0.75rem !important;
+}
+
 .pepe {
     display: flex !important;
     justify-content: center;

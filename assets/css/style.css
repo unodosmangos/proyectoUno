@@ -19,3 +19,7 @@ body{
     white-space: nowrap;
     font-size: .75rem !important;
 }
+
+.styleFooter{
+    font-size: 0.60rem !important;
+}
