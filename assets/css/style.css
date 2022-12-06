@@ -2,10 +2,6 @@ body{
     overflow-x: hidden;
 }
 
-.styleTexto{
-    font-size: .75rem;
-    color: white;
-}
 .primero img{
    height: 93vh;
    width: fit-content !important;
@@ -21,5 +17,5 @@ body{
 
 .nav-link{
     white-space: nowrap;
-    font-size: .75rem;
+    font-size: .75rem !important;
 }
