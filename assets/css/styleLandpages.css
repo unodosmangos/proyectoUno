@@ -14,6 +14,10 @@
  padding-left: 18vh;
 }
 
+.styleBotonIzq{
+    padding-right: 16vh;
+}
+
 .pepe {
     display: flex !important;
     justify-content: center;
