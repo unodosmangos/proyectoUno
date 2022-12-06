@@ -1,0 +1,75 @@
+.pepe {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+}
+.barraModa{
+    background-color: #f9f9f9;
+    padding: 15px;
+    padding-left: 10%;
+}
+
+.tituloSeccion{
+    font-family: Futura, Arial, Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+    border-left: 2px solid #000;
+}
+
+
+
+.PatalonesSudadera{
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: 480px;
+   
+    padding: 3%;
+}
+
+
+
+.Camisetas{
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: 480px;
+    
+    padding: 3%;
+}
+
+.BuzosChaquetas{
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: 480px;
+   
+    padding: 3%;
+    
+}
+
+.BolsosMorrales{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: 480px;
+    
+    padding: 3%;
+
+}
+
+.Accesorios{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: 480px;
+    
+    padding: 3%;
+}
+
+.Shorts{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: 480px;
+    
+    padding: 3%;
+}
+
+
+.slick-prev:before, .slick-next:before {
+    color: #000;
+}
+

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Trench-coat Factory</title>
+    <title>The Trench-Coat Factory</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,9 +13,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <!--La primera sección corresponde al navBar, compuesta por 4 cajas (Menu Offcanvas, Botones de navegacion 1, Nombre de la marca, Botones de navegacion 2).-->
-
+<body class="bg-black">
+    <!--La primera sección corresponde al navBar, compuesta por 3 cajas (Menu Offcanvas, Botones de navegacion 1, Nombre de la marca, Botones de navegacion 2).-->
 
     <nav class="navbar navbar-expand-lg bg-black navbar-dark">
         <div class="container-fluid">
@@ -30,13 +29,10 @@
                                 <a href="#" class="text-decoration-none text-white p-2 nav-link">NOVEDADES</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="text-decoration-none text-white p-2 nav-link">MUJER</a>
+                                <a href="mujeres.html" class="text-decoration-none text-white p-2 nav-link">MUJER</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="text-decoration-none text-white p-2 nav-link">HOMBRE</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="text-decoration-none text-white p-2 nav-link">REGALOS</a>
+                                <a href="hombres.html" class="text-decoration-none text-white p-2 nav-link">HOMBRE</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="text-decoration-none text-white p-2 nav-link">COLECCIONES</a>
@@ -82,13 +78,7 @@
     </nav>
 
 
-
-
-
-    
-
-
-
+<!--Offcanvas NavBar-->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
             <div></div>
@@ -148,6 +138,30 @@
         </div>
     </div>
 
+    <!--Collapse Mujeres-->
+    <div class="collapse bg-black" id="mujeresCollapse">
+        <div>
+            <ul class="d-flex">
+                <li class="list-unstyled px-3"><a class="text-decoration-none styleTexto" href="camisetasM.html">CAMISETAS</a></li>            
+                <li class="list-unstyled px-3"><a class="text-decoration-none styleTexto" href="Jeans.html">PANTALONES</a></li>
+                <li class="list-unstyled px-3"><a class="text-decoration-none styleTexto" href="vestidos.html">VESTIDOS</a></li>
+                <li class="list-unstyled px-3"><a class="text-decoration-none styleTexto" href="zapatos.html">ZAPATOS</a></li>
+                <li class="list-unstyled px-3"><a class="text-decoration-none styleTexto" href="todos.html">TODAS LAS COLECCIONES</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Collapse Hombres-->
+    <div class="collapse bg-black" id="hombresCollapse">
+        <div>
+            <ul class="d-flex">
+                <li class="list-unstyled px-3"><a class="text-decoration-none styleTexto" href="camisetasM.html">CAMISETAS</a></li>            
+                <li class="list-unstyled px-3"><a class="text-decoration-none styleTexto" href="Jeans.html">PANTALONES</a></li>
+                <li class="list-unstyled px-3"><a class="text-decoration-none styleTexto" href="vestidos.html">VESTIDOS</a></li>
+                <li class="list-unstyled px-3"><a class="text-decoration-none styleTexto" href="zapatos.html">ZAPATOS</a></li>
+                <li class="list-unstyled px-3"><a class="text-decoration-none styleTexto" href="todos.html">TODAS LAS COLECCIONES</a></li>
+            </ul>
+        </div>
+    </div>
 
 
     <!--La segunda seccion contiene un div para un slider o un video/gif y un div nombrando de la coleccion de la temporada.-->
@@ -267,6 +281,11 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div>
+
+        </div>
+    </footer>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 

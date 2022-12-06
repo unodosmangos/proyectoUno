@@ -1,0 +1,20 @@
+.pepe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloproductos {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.styleTexto{
+  font-size: .75rem;
+  color: white;
+}
+.nav-link{
+  white-space: nowrap;
+  font-size: .75rem;
+}
