@@ -2,6 +2,17 @@
     white-space: nowrap !important;
     font-size: .75rem !important;
 }
+.divProducto{
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+
+.styleBoton{
+ padding-left: 18vh;
+}
 
 .pepe {
     display: flex !important;

@@ -22,21 +22,23 @@
         <div class="container mt-5">
             <div class="row row-cols-1 row-cols-md-3 ">
                 <div class="col">
-                    <div class="card" onclick="redireccion('detalle-camisa1.html')">
-                        <div style="background-image: url(assets/img/Mujer/camiseta1.jpg);" class="divImgProducto"></div>
+                    <a href="#pantalon1">
+                        <div style="background-image: url(assets/img/Mujer/camiseta1.jpg);" class="divImgProducto">
+                        </div>
                         <div class="card-body">
                             <span
                                 class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camiseta
                                 manga corta para mujer</span>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col">
                     <div class="card" onclick="redireccion('detalle-camisa2.html')">
                         <div style="background-image: url(assets/img/Mujer/imagenx.png);" class="divImgProducto"></div>
                         <div class="card-body">
                             <span
-                                class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camisa manga sisa con botones</span>
+                                class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camisa
+                                manga sisa con botones</span>
                         </div>
                     </div>
                 </div>
@@ -45,7 +47,8 @@
                         <div style="background-image: url(assets/img/Mujer/camisa3.jpg);" class="divImgProducto"></div>
                         <div class="card-body">
                             <span
-                                class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camisa manga sisa</span>
+                                class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camisa
+                                manga sisa</span>
                         </div>
                     </div>
                 </div>
@@ -61,31 +64,79 @@
                         <div style="background-image: url(assets/img/Mujer/camisa4.jpg);" class="divImgProducto"></div>
                         <div class="card-body">
                             <span
-                                class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camisa cropped 100% algodón para mujer</span>
+                                class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camisa
+                                cropped 100% algodón para mujer
+                            </span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card" onclick="redireccion('detalle-camisa5.html')">
-                        <div style="background-image: url(assets/img/Mujer/camiseta5.jpg);" class="divImgProducto"></div>
+                        <div style="background-image: url(assets/img/Mujer/camiseta5.jpg);" class="divImgProducto">
+                        </div>
                         <div class="card-body">
                             <span
-                                class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camisa de cuadros 100% algodón para mujer</span>
+                                class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camisa
+                                de cuadros 100% algodón para mujer</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card" onclick="redireccion('detalle-camisa6.html')">
-                        <div style="background-image: url(assets/img/Mujer/camiseta6.jpg);" class="divImgProducto"></div>
+                        <div style="background-image: url(assets/img/Mujer/camiseta6.jpg);" class="divImgProducto">
+                        </div>
                         <div class="card-body">
                             <span
-                                class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camisa larga con aberturas laterales para mujer
+                                class="vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body">Camisa
+                                larga con aberturas laterales para mujer
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
     </section>
+    <img src="assets/img/pantalonNegro.jpg" alt="">
+    <p href="#" class="text-center">Producto 1</p>
+    <div class="d-flex justify-content-center align-items-center">
+        <button class="btn btn-primary w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#pantalonNegro"
+            aria-controls="offcanvasRight">Ver detalle de
+            producto</button>
+
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="pantalon1" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Pantalon Negro</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row">
+                <div class="col-4 d-flex text-center">
+                    <img src="assets/img/pantalonNegro.jpg" alt="">
+                </div>
+
+                <div>
+                    <h6 class="text-dark fw-bold">Jean indigo negro</h6>
+                    <p class="text-dark">$359,990</p>
+                </div>
+
+                <div>
+                    <h5 class=" pantalonOccanvas mt-5" fw-bold>Elige tu talla</h5>
+                </div>
+
+            </div>
+            <div>
+                <button type="buttom" class="btn btn-dark TallaS">S</button>
+                <button type="buttom" class="btn btn-dark TallaS">M</button>
+                <button type="buttom" class="btn btn-dark TallaS">X</button>
+                <button type="buttom" class="btn btn-dark TallaS">XL</button>
+            </div>
+            <a href="#" class="mt-5">
+                <p class="text-dark">Añadir al carrito de compras</p>
+            </a>
+            <button class="btn btn-dark text-white">Comprar ahora</button>
+        </div>
+    </div>
     <script src="assets/js/main.js"></script>
 </body>
 

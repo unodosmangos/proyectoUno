@@ -10,11 +10,14 @@
     color: aliceblue;
 }
 
-.styleTexto{
-  font-size: .75rem;
-  color: white;
-}
 .nav-link{
   white-space: nowrap !important;
   font-size: .75rem !important;
+}
+
+.divProducto{
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;    
 }
