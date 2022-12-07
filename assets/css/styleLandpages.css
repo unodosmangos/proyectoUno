@@ -22,6 +22,15 @@
     font-size: 0.75rem !important;
 }
 
+.divprodOff{
+    height: 400px;
+    width: 300px;
+    margin-left: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
 .pepe {
     display: flex !important;
     justify-content: center;
